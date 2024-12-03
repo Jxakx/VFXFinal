@@ -61,12 +61,13 @@ Material:
     - _Blend: 0
     - _CastShadows: 1
     - _Cull: 2
-    - _DistortionIntensity: 22.01
+    - _DistortionIntensity: 0.2
     - _DstBlend: 10
-    - _FresnelPower: 2.4
+    - _Fade: 0.035
+    - _FresnelPower: -0.11
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Speed: 0.1
+    - _Speed: 0.07
     - _SrcBlend: 5
     - _Surface: 1
     - _ZTest: 4
