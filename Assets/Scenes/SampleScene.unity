@@ -25940,7 +25940,7 @@ GameObject:
   - component: {fileID: 1413511755}
   - component: {fileID: 1413511754}
   m_Layer: 0
-  m_Name: Glass (1)
+  m_Name: Elixir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
