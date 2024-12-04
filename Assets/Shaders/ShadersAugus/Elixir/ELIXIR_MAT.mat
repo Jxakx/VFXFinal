@@ -113,6 +113,8 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _Amplitud: 100
+    - _AmplitudNoise: 50
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
