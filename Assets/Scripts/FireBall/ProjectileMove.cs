@@ -32,7 +32,7 @@ public class ProjectileMove : MonoBehaviour
 
         if(impactPrefab != null)
         {
-            var impactVFX = Instantiate(impactPrefab, pos, rot) as GameObject;
+            var impactVFX = Instantiate(impactPrefab) as GameObject;
             Destroy(impactVFX, 5);
         }
 

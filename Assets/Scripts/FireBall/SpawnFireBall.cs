@@ -7,7 +7,15 @@ public class SpawnFireBall : MonoBehaviour
     public GameObject vfx;
     public Transform startPoint;
     public Transform endPoint;
-    void Start()
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            SpawnBall();
+        }
+    }
+
+    void SpawnBall()
     {
         var starPos = startPoint.position;
         GameObject objVFX = Instantiate(vfx, starPos, Quaternion.identity) as GameObject;
@@ -16,7 +24,6 @@ public class SpawnFireBall : MonoBehaviour
 
         RotateTo(objVFX, endPos);
     }
-
     void RotateTo (GameObject obj, Vector3 destination)
     {
         var direction = destination - obj.transform.position;

@@ -4928,7 +4928,7 @@ ParticleSystem:
   m_GameObject: {fileID: 2497687792736854274}
   serializedVersion: 8
   lengthInSec: 5
-  simulationSpeed: 1
+  simulationSpeed: 2.5
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -9797,7 +9797,7 @@ Transform:
   m_GameObject: {fileID: 3531741701454990811}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.055, y: -0.072, z: -10.299}
+  m_LocalPosition: {x: -7.35, y: 20.37, z: 1.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9849,7 +9849,7 @@ ParticleSystem:
   m_GameObject: {fileID: 3926618203759430314}
   serializedVersion: 8
   lengthInSec: 5
-  simulationSpeed: 1
+  simulationSpeed: 2.5
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -15358,7 +15358,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 50
+    angle: 20
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
