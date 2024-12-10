@@ -95,7 +95,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.5
+    - _Alpha: 0.1
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -109,8 +109,8 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _DstBlendAlpha: 10
-    - _EmissiveFloat: 100
-    - _EmissiveSpeed: 2
+    - _EmissiveFloat: 50
+    - _EmissiveSpeed: 8
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -133,10 +133,10 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.9215689, g: 0, b: 1, a: 0.8862745}
     - _Color: {r: 0.9215689, g: 0, b: 1, a: 0.8862745}
-    - _ColorFuria: {r: 0.4056604, g: 0, b: 0.3563448, a: 0}
+    - _ColorFuria: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emissive: {r: 1, g: 0, b: 0.88933325, a: 0}
-    - _EmissiveColor: {r: 0.754717, g: 0, b: 0.58700204, a: 0}
+    - _EmissiveColor: {r: 0.745283, g: 0, b: 0.5829443, a: 0}
     - _EmissiveFloat: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

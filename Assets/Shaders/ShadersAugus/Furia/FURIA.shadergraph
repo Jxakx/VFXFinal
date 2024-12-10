@@ -4,9 +4,6 @@
     "m_ObjectId": "d1d9bbf23a934761b192053f0514c977",
     "m_Properties": [
         {
-            "m_Id": "e40a614f2ee34b20b5da4078fb41559a"
-        },
-        {
             "m_Id": "0a1514d7b2554be591a2949d6c32b68b"
         },
         {
@@ -1696,9 +1693,6 @@
     "m_Name": "",
     "m_ChildObjectList": [
         {
-            "m_Id": "e40a614f2ee34b20b5da4078fb41559a"
-        },
-        {
             "m_Id": "bcba3ce5ec0542bfb5d969af60de1ca0"
         },
         {
@@ -1760,36 +1754,6 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Smoothness"
-}
-
-{
-    "m_SGVersion": 3,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
-    "m_ObjectId": "e40a614f2ee34b20b5da4078fb41559a",
-    "m_Guid": {
-        "m_GuidSerialized": "099bfd26-0189-4f1d-a9f4-215390dab328"
-    },
-    "m_Name": "ColorFuria",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "ColorFuria",
-    "m_DefaultReferenceName": "_ColorFuria",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
-    },
-    "isMainColor": false,
-    "m_ColorMode": 0
 }
 
 {
@@ -1948,7 +1912,7 @@
     "m_ShaderOutputName": "OutMinMax",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 0.0,
+        "x": 0.10000000149011612,
         "y": 1.0
     },
     "m_DefaultValue": {
