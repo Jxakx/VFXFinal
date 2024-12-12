@@ -15474,10 +15474,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: ARENA 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f5967db1c8761e14890f1a5e341c99ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2039133611022265390, guid: f5967db1c8761e14890f1a5e341c99ca,
         type: 3}
       propertyPath: m_Name
       value: Tribuna
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039133611022265390, guid: f5967db1c8761e14890f1a5e341c99ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2039133611022265390, guid: f5967db1c8761e14890f1a5e341c99ca,
         type: 3}
@@ -15498,6 +15508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Estadio
+      objectReference: {fileID: 0}
+    - target: {fileID: 7581128899355261871, guid: f5967db1c8761e14890f1a5e341c99ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7581128899355261871, guid: f5967db1c8761e14890f1a5e341c99ca,
         type: 3}
@@ -15906,7 +15921,7 @@ Camera:
   field of view: 60
   orthographic: 0
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: -2
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -15950,7 +15965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 1
+  m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
   m_RendererIndex: -1
@@ -16285,6 +16300,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cascada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f0f4793386dccf9488ad81cb9f823226,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

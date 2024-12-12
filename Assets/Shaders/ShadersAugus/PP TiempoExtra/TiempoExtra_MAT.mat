@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Empate_MAT
+  m_Name: TiempoExtra_MAT
   m_Shader: {fileID: -6465566751694194690, guid: eb2fd29947e57bb4b9d51c7c06d57e7b,
     type: 3}
   m_Parent: {fileID: 0}
@@ -38,9 +38,25 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AroPower: 25
+    - _AroPowerX: 8.7
+    - _AroPowerY: 7.3
+    - _FresnelScale: 36.4
+    - _Fullscreen_AlphaBlendOperation: 0
+    - _Fullscreen_BlendMode: 3
+    - _Fullscreen_ColorBlendOperation: 0
+    - _Fullscreen_DepthWrite: 0
+    - _Fullscreen_DstAlphaBlend: 1
+    - _Fullscreen_DstColorBlend: 1
+    - _Fullscreen_SrcAlphaBlend: 1
+    - _Fullscreen_SrcColorBlend: 5
+    - _NoiseScale: 70
+    - _PP_Intensity: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    m_Colors:
+    - _PP_Color: {r: 1, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2077271698923105428
 MonoBehaviour:
