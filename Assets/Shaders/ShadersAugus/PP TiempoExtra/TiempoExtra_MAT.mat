@@ -38,9 +38,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AnchoLineas: 0.5
     - _AroPower: 25
-    - _AroPowerX: 8.7
-    - _AroPowerY: 7.3
+    - _AroPowerX: 20
+    - _AroPowerY: 5
+    - _BlancoNoise: 1.5
+    - _BordesSinNoise: 10
+    - _BordesSinNoiseX: 15
+    - _BordesSinNoiseY: 2.5
     - _FresnelScale: 36.4
     - _Fullscreen_AlphaBlendOperation: 0
     - _Fullscreen_BlendMode: 3
@@ -50,11 +55,17 @@ Material:
     - _Fullscreen_DstColorBlend: 1
     - _Fullscreen_SrcAlphaBlend: 1
     - _Fullscreen_SrcColorBlend: 5
-    - _NoiseScale: 70
+    - _G: -0
+    - _LineasPower: 20
+    - _NoiseScale: 10
+    - _NoiseScaleX: 3
+    - _NoiseScaleY: 10
     - _PP_Intensity: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
+    - _ColorLineas: {r: 1, g: 1, b: 1, a: 1}
+    - _LineColorY: {r: 1, g: 1, b: 1, a: 0}
     - _PP_Color: {r: 1, g: 0, b: 0, a: 0}
     - _Vector2: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
