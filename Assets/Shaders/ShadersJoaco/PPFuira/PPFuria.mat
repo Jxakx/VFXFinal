@@ -25,15 +25,18 @@ Material:
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _ALPHAPREMULTIPLY_ON
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap:
-    RenderType: Opaque
-  disabledShaderPasses: []
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -52,25 +55,31 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 1
+    - _Alpha: 0.85
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
+    - _BlendModePreserveSpecular: 1
     - _CastShadows: 1
     - _Cull: 2
-    - _DstBlend: 0
+    - _DstBlend: 10
+    - _Emissive: 4.01
     - _NoiseScale: 150
-    - _PPIntenidad: 1
+    - _NoiseSmooth: 0.45
+    - _PPIntenidad: 0.85
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
     - _Speed: 0.02
     - _SrcBlend: 1
-    - _Surface: 0
+    - _Surface: 1
+    - _WorkflowMode: 1
     - _ZTest: 4
-    - _ZWrite: 1
+    - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _MainColor: {r: 0.5102615, g: 0, b: 0.827451, a: 1}
+    - _MainColor: {r: 0.56908077, g: 0, b: 0.8018868, a: 1}
     - _NoiseColor: {r: 0.827451, g: 0, b: 0.8226228, a: 0}
+    - _NoiseRemap: {r: -0.15, g: 1.32, b: 0, a: 0}
     - _Test: {r: 0.9622642, g: 0.49474904, b: 0.90696675, a: 0}
   m_BuildTextureStacks: []
