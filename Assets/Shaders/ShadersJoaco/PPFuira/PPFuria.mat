@@ -72,4 +72,5 @@ Material:
     m_Colors:
     - _MainColor: {r: 0.5102615, g: 0, b: 0.827451, a: 1}
     - _NoiseColor: {r: 0.827451, g: 0, b: 0.8226228, a: 0}
+    - _Test: {r: 0.9622642, g: 0.49474904, b: 0.90696675, a: 0}
   m_BuildTextureStacks: []
