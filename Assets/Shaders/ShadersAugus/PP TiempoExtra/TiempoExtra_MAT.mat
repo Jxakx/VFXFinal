@@ -41,11 +41,17 @@ Material:
     - _AnchoLineas: 0.5
     - _AroPower: 25
     - _AroPowerX: 20
-    - _AroPowerY: 5
+    - _AroPowerY: 3
     - _BlancoNoise: 1.5
     - _BordesSinNoise: 10
     - _BordesSinNoiseX: 15
     - _BordesSinNoiseY: 2.5
+    - _Edge1LateralX: 0.24
+    - _Edge1LateralX_Y: 0.22
+    - _Edge2LateralX: 0.04
+    - _Edge2LateralX_Y: 0.04
+    - _EdgeLateralX: 0.24
+    - _EdgeLateralY: 0.04
     - _FresnelScale: 36.4
     - _Fullscreen_AlphaBlendOperation: 0
     - _Fullscreen_BlendMode: 3
@@ -58,15 +64,18 @@ Material:
     - _G: -0
     - _LineasPower: 20
     - _NoiseScale: 10
-    - _NoiseScaleX: 3
-    - _NoiseScaleY: 10
+    - _NoiseScaleX: 6.76
+    - _NoiseScaleY: 1
+    - _NoiseSpeedY: 10
     - _PP_Intensity: 1
+    - _PoerLateralesX: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _ColorLineas: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorLineas: {r: 1, g: 0.6556604, b: 0.6556604, a: 1}
     - _LineColorY: {r: 1, g: 1, b: 1, a: 0}
     - _PP_Color: {r: 1, g: 0, b: 0, a: 0}
+    - _PowerNoiseX: {r: 222.54, g: 1, b: 0, a: 0}
     - _Vector2: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2077271698923105428
