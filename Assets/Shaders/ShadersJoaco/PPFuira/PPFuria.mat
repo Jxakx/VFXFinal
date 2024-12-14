@@ -63,10 +63,11 @@ Material:
     - _CastShadows: 1
     - _Cull: 2
     - _DstBlend: 10
-    - _Emissive: 4.01
+    - _Emissive: 0
     - _NoiseScale: 150
     - _NoiseSmooth: 0.45
     - _PPIntenidad: 0.85
+    - _PPIntensidad: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
